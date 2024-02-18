@@ -32,6 +32,7 @@ function verificarChute() {
     if (chute == numeroSecreto){
         exibirTextoNaTela("h1", "Acertou!");
         exibirTextoNaTela("p", palavraTentada_1);
+        document.getElementById("diferenca").setAttribute("disabled", "true");
         document.getElementById("reiniciar").removeAttribute("disabled");
         limparCampo();
     }
