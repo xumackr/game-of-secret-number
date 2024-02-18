@@ -85,5 +85,7 @@ function reiniciarJogo(){
     tentativa = 1;
     exibirMensagemInicial();
     document.getElementById("reiniciar").setAttribute("disabled", "true");
+    document.getElementById("diferenca").removeAttribute("disabled");
+    
 
 }
