@@ -3,7 +3,7 @@
 
 //let paragrafo = document.querySelector("p");
 //paragrafo.innerHTML = "Escolha um número de 1 a 10";
-alert("jOGO DO NÚMERO SECRETO DO LUCAS CAMPOS DOS SANTOS")
+alert("JOGO DO NÚMERO SECRETO DO LUCAS CAMPOS DOS SANTOS")
 let listaNumeros = [];
 let numeroLimite = 10;
 let numeroSecreto = gerarNumeroAleatorio();
