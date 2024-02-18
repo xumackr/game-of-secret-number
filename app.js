@@ -3,6 +3,7 @@
 
 //let paragrafo = document.querySelector("p");
 //paragrafo.innerHTML = "Escolha um número de 1 a 10";
+alert("jOGO DE ")
 let listaNumeros = [];
 let numeroLimite = 10;
 let numeroSecreto = gerarNumeroAleatorio();
